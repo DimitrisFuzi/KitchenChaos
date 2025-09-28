@@ -731,6 +731,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   player: {fileID: 44071796}
+--- !u!1 &588836020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3572549244646174752, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+  m_PrefabInstance: {fileID: 1054385231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &655937993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -788,6 +793,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 074392bdbb04560489270cbc2a669b67, type: 3}
+--- !u!1 &668149643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6666261030482805154, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+  m_PrefabInstance: {fileID: 1054385231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &798578695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3755606541570866118, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+  m_PrefabInstance: {fileID: 1054385231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,15 +1016,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6707681446572262065, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+      propertyPath: baseCounter
+      value: 
+      objectReference: {fileID: 1546716426}
+    - target: {fileID: 6707681446572262065, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+      propertyPath: visualGameObjectArray.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707681446572262065, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+      propertyPath: 'visualGameObjectArray.Array.data[0]'
+      value: 
+      objectReference: {fileID: 668149643}
+    - target: {fileID: 6707681446572262065, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+      propertyPath: 'visualGameObjectArray.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1137319434}
+    - target: {fileID: 6707681446572262065, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+      propertyPath: 'visualGameObjectArray.Array.data[2]'
+      value: 
+      objectReference: {fileID: 798578695}
+    - target: {fileID: 6707681446572262065, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+      propertyPath: 'visualGameObjectArray.Array.data[3]'
+      value: 
+      objectReference: {fileID: 588836020}
     - target: {fileID: 6859024945191103810, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
       propertyPath: m_Name
       value: ContainerCounter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8790458017519079613, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+--- !u!1 &1137319434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4753994072958971435, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+  m_PrefabInstance: {fileID: 1054385231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1546716426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3125554734713908386, guid: 83c756b9cd59f714ba70eebc5d8704e5, type: 3}
+  m_PrefabInstance: {fileID: 1054385231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2ba01353b9f81f4284f1ea05023736b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ContainerCounter
 --- !u!1 &1799945627
 GameObject:
   m_ObjectHideFlags: 0
