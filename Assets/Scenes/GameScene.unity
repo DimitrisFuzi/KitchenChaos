@@ -153,6 +153,7 @@ MonoBehaviour:
   countersLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  kitchenObjectHoldPoint: {fileID: 1799945628}
 --- !u!4 &44071797
 Transform:
   m_ObjectHideFlags: 0
@@ -167,6 +168,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 446941028}
+  - {fileID: 1799945628}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &246682131
@@ -471,9 +473,17 @@ PrefabInstance:
       value: ClearCounter (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3503307423475709510, guid: 67fde800ebd7cfa409875ba5b9ab8aea, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503307423475709510, guid: 67fde800ebd7cfa409875ba5b9ab8aea, type: 3}
       propertyPath: tomatoPrefab
       value: 
       objectReference: {fileID: 8778063801586038970, guid: 66a4bb46dbff6c246ba4eceba414b105, type: 3}
+    - target: {fileID: 3503307423475709510, guid: 67fde800ebd7cfa409875ba5b9ab8aea, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 7c3e75ac5b9c7644b881c34a4377576e, type: 2}
     - target: {fileID: 7236420417566466461, guid: 67fde800ebd7cfa409875ba5b9ab8aea, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.71
@@ -890,6 +900,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1799945627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799945628}
+  m_Layer: 0
+  m_Name: KitchenObjectHoldPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1799945628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799945627}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 44071797}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2133316305 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3503307423475709510, guid: 67fde800ebd7cfa409875ba5b9ab8aea, type: 3}
+  m_PrefabInstance: {fileID: 404063431}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487f4d86f18ad744090fde2ca4954a22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClearCounter
 --- !u!1001 &7948200949817796464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -902,6 +954,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 3503307423475709510, guid: 67fde800ebd7cfa409875ba5b9ab8aea, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503307423475709510, guid: 67fde800ebd7cfa409875ba5b9ab8aea, type: 3}
+      propertyPath: secondClearcounter
+      value: 
+      objectReference: {fileID: 2133316305}
     - target: {fileID: 7236420417566466461, guid: 67fde800ebd7cfa409875ba5b9ab8aea, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
