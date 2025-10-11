@@ -22,7 +22,6 @@ public class PlateCompleteVisual : MonoBehaviour
         {
            
                 kitchenObjectSOGameObject.gameObject.SetActive(false);
-
         }
 
     }
