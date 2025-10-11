@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
   kitchenObjectSOList:
   - {fileID: 11400000, guid: e9e1b573bc64ef64e8f1f65c28eeaab5, type: 2}
+  - {fileID: 11400000, guid: 10d05c38e79a8514b8146f36e966ca1f, type: 2}
   recipeName: Salad
